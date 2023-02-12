@@ -1,6 +1,6 @@
 I ran the code using Intel(R) Core(TM) i5-10210U CPU. It has 8 physical cores. Specific info is stored in the cpuinfo.txt file.
 
-Flop rate and the rate of memory access for code compiled with optflag -O0:
+Flop rate and the rate of memory access for code compiled with optflag -O0 (well-formatted in result_witho0.txt):
 
  Dimension       Time    Gflop/s       GB/s
         20   0.002282   1.752925   5.609361
@@ -33,7 +33,7 @@ Flop rate and the rate of memory access for code compiled with optflag -O0:
        560  67.124798   1.308131   4.186018
        580  75.277552   1.295951   4.147042
 
-Flop rate and the rate of memory access for code compiled with optflag -O3:
+Flop rate and the rate of memory access for code compiled with optflag -O3 (well-formatted in result_witho3.txt):
 
  Dimension       Time    Gflop/s       GB/s
         20   0.000260  15.384615  49.230769
